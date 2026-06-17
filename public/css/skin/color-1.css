@@ -1,0 +1,11 @@
+:root {
+    --skin-color: #45CAFF;
+    --theme-gradient: linear-gradient(135deg, #FF1B6B 0%, #45CAFF 100%);
+    --theme-gradient-glow: rgba(69, 202, 255, 0.3);
+    
+    --ambient-bg-light: radial-gradient(circle at top right, rgba(255, 27, 107, 0.08) 0%, transparent 60%),
+                        radial-gradient(circle at bottom left, rgba(69, 202, 255, 0.08) 0%, transparent 60%);
+                        
+    --ambient-bg-dark: radial-gradient(circle at top right, rgba(255, 27, 107, 0.15) 0%, transparent 60%),
+                       radial-gradient(circle at bottom left, rgba(69, 202, 255, 0.15) 0%, transparent 60%);
+}
