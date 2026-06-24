@@ -27,10 +27,10 @@ const About = () => {
                             <div className="personal-info padd-15">
                                 <div className="row">
                                     <div className="info-item padd-15"><p>Birthdate : <span>03 feb 2005</span></p></div>
-                                    <div className="info-item padd-15"><p>Age : <span>19</span></p></div>
-                                    <div className="info-item padd-15"><p>Website : <span>www.domain.com</span></p></div>
+                                    <div className="info-item padd-15"><p>Age : <span>21</span></p></div>
+                                    <div className="info-item padd-15"><p>Website : <span><a href="https://react-portfolio-one-liard.vercel.app/#home" target="_blank" rel="noopener noreferrer" style={{color: 'var(--skin-color)'}}>react-portfolio-one-liard.vercel.app</a></span></p></div>
                                     <div className="info-item padd-15"><p>Email : <span>mehtasaurabhsingh1@gmail.com</span></p></div>
-                                    <div className="info-item padd-15"><p>Degree : <span>pursuing B.Sc IT 3rd year</span></p></div>
+                                    <div className="info-item padd-15"><p>Degree : <span>BSc VOC IT — Manas College (SSJU)</span></p></div>
                                     <div className="info-item padd-15"><p>Phone number : <span>+91 79068 54596</span></p></div>
                                     <div className="info-item padd-15"><p>Location : <span>Uttarakhand, INDIA</span></p></div>
                                     <div className="info-item padd-15"><p>Freelance Status: <span>Available</span></p></div>
@@ -98,8 +98,8 @@ const About = () => {
                                             <div className="timeline-item">
                                                 <div className="circle-dot"></div>
                                                 <h3 className="timeline-date"><i className="fa fa-calendar"></i> 2022 - 2025</h3>
-                                                <h4 className="timeline-title">Degree in Information Technology</h4>
-                                                <p className="timeline-text">Currently pursuing a degree focused on the core aspects of Information Technology, including web development, software engineering, and cybersecurity. Dedicated to mastering both theoretical concepts and practical applications...</p>
+                                                <h4 className="timeline-title">BSc VOC IT — Manas College of Science, Technology & Management</h4>
+                                                <p className="timeline-text">Completed a Bachelor of Science in Vocational Information Technology from Manas College of Science, Technology and Management, affiliated with Soban Singh Jeena University (SSJU). Covered core aspects of IT including web development, software engineering, data analytics, and cybersecurity.</p>
                                             </div>
                                             <div className="timeline-item">
                                                 <div className="circle-dot"></div>

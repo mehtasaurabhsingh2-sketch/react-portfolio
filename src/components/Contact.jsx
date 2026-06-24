@@ -31,7 +31,7 @@ const Contact = () => {
         } catch (error) {
             setStatus('An error occurred. Please try again.');
         }
-        
+
         setTimeout(() => setStatus(''), 5000);
     };
 
@@ -64,12 +64,12 @@ const Contact = () => {
                     <div className="contact-info-item padd-15">
                         <div className="icon"><i className="fa fa-globe-europe"></i></div>
                         <h4>Website</h4>
-                        <p>https://dazzling-elf-15075d.netlify.app/</p>
+                        <p>https://react-portfolio-one-liard.vercel.app/#home</p>
                     </div>
                 </div>
                 <h3 className="contact-title padd-15">Send Me An Email?</h3>
                 <h4 className="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
-                
+
                 <div className="row">
                     <form onSubmit={handleSubmit}>
                         <div className="contact-form padd-15">

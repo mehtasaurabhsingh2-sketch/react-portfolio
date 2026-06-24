@@ -279,8 +279,17 @@ ul {
     padding: 5px 15px;
 }
 
+.aside .nav li a:hover,
 .aside .nav li a.active {
     color: var(--skin-color);
+    text-shadow: 0 0 8px var(--skin-color), 0 0 16px var(--theme-gradient-glow, rgba(69,202,255,0.4));
+    animation: navGlowPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes navGlowPulse {
+    0%   { text-shadow: 0 0 6px var(--skin-color), 0 0 14px var(--theme-gradient-glow, rgba(69,202,255,0.3)); opacity: 1; }
+    50%  { text-shadow: 0 0 14px var(--skin-color), 0 0 28px var(--theme-gradient-glow, rgba(69,202,255,0.6)); opacity: 0.85; }
+    100% { text-shadow: 0 0 6px var(--skin-color), 0 0 14px var(--theme-gradient-glow, rgba(69,202,255,0.3)); opacity: 1; }
 }
 
 .aside .nav li a i {
